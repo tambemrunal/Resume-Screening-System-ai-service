@@ -26,8 +26,21 @@ RELATED_SKILLS = {
 
     "react": [
         "frontend",
-        "javascript"
+        "spa",
+        "javascript",
+        "ui"
     ],
+
+    "node.js": [
+        "backend",
+        "api",
+        "server"
+    ],
+
+    "mongodb": [
+        "nosql",
+        "database"
+    ],  
 
     "fastapi": [
         "python",
