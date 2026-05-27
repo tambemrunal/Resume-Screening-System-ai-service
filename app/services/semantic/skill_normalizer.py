@@ -3,10 +3,12 @@ SKILL_ALIASES = {
     # React
     "reactjs": "react",
     "react.js": "react",
+    "react js": "react",
 
     # Node
     "node": "node.js",
     "nodejs": "node.js",
+    "node js": "node.js",
 
     # JavaScript
     "js": "javascript",
@@ -19,6 +21,15 @@ SKILL_ALIASES = {
 
     # CSS
     "tailwind": "tailwind css",
+    "tailwindcss": "tailwind css",
+    "tailwind css": "tailwind css",
+    "css3": "css",
+    "html5": "html",
+
+    # Backend
+    "express": "express.js",
+    "expressjs": "express.js",
+    "express js": "express.js",
 }
 
 def normalize_skill(skill: str):
@@ -30,8 +41,15 @@ def normalize_skill(skill: str):
 def normalize_skills(skills: list):
 
     normalized = []
+    seen = set()
 
     for skill in skills:
-        normalized.append(normalize_skill(skill))
+        canonical = normalize_skill(skill)
 
-    return list(set(normalized))
+        if canonical in seen:
+            continue
+
+        seen.add(canonical)
+        normalized.append(canonical)
+
+    return normalized

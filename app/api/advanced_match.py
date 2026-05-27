@@ -15,6 +15,14 @@ class AdvancedMatchRequest(
 
     job_data: dict
 
+    candidate_text: str | None = None
+
+    job_text: str | None = None
+
+    candidate_embedding: list[float] | None = None
+
+    job_embedding: list[float] | None = None
+
 @router.post("/advanced-match")
 def advanced_match(
     data: AdvancedMatchRequest
@@ -24,7 +32,15 @@ def advanced_match(
 
         data.candidate_data,
 
-        data.job_data
+        data.job_data,
+
+        candidate_text=data.candidate_text,
+
+        job_text=data.job_text,
+
+        candidate_embedding=data.candidate_embedding,
+
+        job_embedding=data.job_embedding,
     )
 
     return result

@@ -6,6 +6,10 @@ from app.services.semantic.cosine_similarity import (
     calculate_similarity
 )
 
+from app.services.semantic.skill_normalizer import (
+    normalize_skills
+)
+
 SEMANTIC_THRESHOLD = 0.55
 
 
@@ -13,6 +17,9 @@ def semantic_match(
     candidate_skills,
     required_skills
 ):
+
+    candidate_skills = normalize_skills(candidate_skills or [])
+    required_skills = normalize_skills(required_skills or [])
 
     matches = []
 

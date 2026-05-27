@@ -1,44 +1,848 @@
 SKILLS = [
 
-    # Frontend
-    "react",
-    "next.js",
+    # =========================
+    # Programming Languages
+    # =========================
+    "python",
+    "java",
     "javascript",
     "typescript",
+    "c",
+    "c++",
+    "c#",
+    "go",
+    "rust",
+    "kotlin",
+    "swift",
+    "php",
+    "ruby",
+    "scala",
+    "perl",
+    "r",
+    "matlab",
+    "dart",
+    "objective-c",
+    "shell scripting",
+    "bash",
+    "powershell",
+    "groovy",
+    "haskell",
+    "clojure",
+    "elixir",
+    "lua",
+    "fortran",
+    "assembly",
+    "visual basic",
+
+    # =========================
+    # Frontend Development
+    # =========================
     "html",
+    "html5",
     "css",
+    "css3",
+    "sass",
+    "scss",
+    "less",
     "tailwind css",
     "bootstrap",
+    "material ui",
+    "chakra ui",
+    "ant design",
+    "react",
+    "react.js",
+    "redux",
+    "redux toolkit",
+    "next.js",
+    "vue.js",
+    "nuxt.js",
+    "angular",
+    "svelte",
+    "jquery",
+    "webpack",
+    "vite",
+    "babel",
+    "responsive design",
+    "web accessibility",
+    "seo",
+    "pwa",
+    "web sockets",
+    "socket.io",
+    "three.js",
+    "d3.js",
+    "framer motion",
+    "storybook",
 
-    # Backend
+    # =========================
+    # Backend Development
+    # =========================
     "node.js",
     "express.js",
-    "fastapi",
+    "nestjs",
+    "fastify",
     "django",
+    "flask",
+    "fastapi",
+    "spring boot",
+    "hibernate",
+    "laravel",
+    "ruby on rails",
+    "asp.net",
+    ".net core",
+    "graphql",
+    "rest api",
+    "grpc",
+    "microservices",
+    "serverless",
+    "jwt authentication",
+    "oauth",
+    "authentication",
+    "authorization",
+    "api development",
+    "webhooks",
 
-    # Database
+    # =========================
+    # Databases
+    # =========================
     "mongodb",
     "mysql",
     "postgresql",
+    "sqlite",
+    "redis",
+    "oracle",
+    "mariadb",
+    "firebase",
+    "supabase",
+    "dynamodb",
+    "cassandra",
+    "neo4j",
+    "elasticsearch",
+    "couchdb",
+    "sql server",
+    "database design",
+    "database optimization",
 
-    # AI
-    "langchain",
-    "langgraph",
-    "rag",
-    "machine learning",
-    "deep learning",
-
-    # DevOps
+    # =========================
+    # Cloud & DevOps
+    # =========================
+    "aws",
+    "azure",
+    "google cloud",
     "docker",
     "kubernetes",
+    "jenkins",
+    "github actions",
+    "gitlab ci/cd",
+    "terraform",
+    "ansible",
+    "nginx",
+    "apache",
+    "linux",
+    "ubuntu",
+    "unix",
+    "devops",
+    "ci/cd",
+    "monitoring",
+    "grafana",
+    "prometheus",
+    "cloudformation",
+    "openshift",
+    "helm",
+    "server administration",
 
-    # Languages
-    "python",
-    "java",
-    "c++",
+    # =========================
+    # AI / ML / Data Science
+    # =========================
+    "machine learning",
+    "deep learning",
+    "artificial intelligence",
+    "nlp",
+    "computer vision",
+    "transformers",
+    "llm",
+    "generative ai",
+    "rag",
+    "langchain",
+    "langgraph",
+    "huggingface",
+    "openai",
+    "tensorflow",
+    "keras",
+    "pytorch",
+    "scikit-learn",
+    "xgboost",
+    "lightgbm",
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "opencv",
+    "data analysis",
+    "data visualization",
+    "feature engineering",
+    "model deployment",
+    "prompt engineering",
+    "fine tuning",
+    "vector database",
+    "pinecone",
+    "faiss",
+    "chroma db",
+    "llamaindex",
+    "mlops",
+    "airflow",
+    "spark",
+    "hadoop",
+    "data engineering",
 
-    # Tools
+    # =========================
+    # Mobile Development
+    # =========================
+    "android development",
+    "ios development",
+    "flutter",
+    "react native",
+    "xamarin",
+    "ionic",
+    "mobile app development",
+
+    # =========================
+    # Testing
+    # =========================
+    "jest",
+    "mocha",
+    "chai",
+    "cypress",
+    "selenium",
+    "playwright",
+    "unit testing",
+    "integration testing",
+    "automation testing",
+    "manual testing",
+    "testng",
+    "junit",
+    "pytest",
+
+    # =========================
+    # Cybersecurity
+    # =========================
+    "cybersecurity",
+    "ethical hacking",
+    "penetration testing",
+    "network security",
+    "cryptography",
+    "owasp",
+    "siem",
+    "soc",
+    "firewall",
+    "vulnerability assessment",
+
+    # =========================
+    # Networking
+    # =========================
+    "tcp/ip",
+    "dns",
+    "http",
+    "https",
+    "networking",
+    "routing",
+    "switching",
+    "vpn",
+
+    # =========================
+    # Software Engineering
+    # =========================
+    "data structures",
+    "algorithms",
+    "object oriented programming",
+    "system design",
+    "design patterns",
+    "software architecture",
+    "agile",
+    "scrum",
+    "kanban",
+    "problem solving",
+    "debugging",
+    "multithreading",
+    "distributed systems",
+    "operating systems",
+
+    # =========================
+    # Version Control & Tools
+    # =========================
     "git",
     "github",
-    "postman"
+    "gitlab",
+    "bitbucket",
+    "postman",
+    "jira",
+    "trello",
+    "figma",
+    "adobe xd",
+    "canva",
+    "notion",
+    "slack",
+
+    # =========================
+    # Data Analytics / BI
+    # =========================
+    "power bi",
+    "tableau",
+    "excel",
+    "google analytics",
+    "business intelligence",
+    "data warehousing",
+
+    # =========================
+    # ERP / CRM
+    # =========================
+    "salesforce",
+    "sap",
+    "zoho crm",
+    "erp systems",
+
+    # =========================
+    # Embedded / IoT
+    # =========================
+    "arduino",
+    "raspberry pi",
+    "embedded systems",
+    "iot",
+    "mqtt",
+
+    # =========================
+    # Blockchain
+    # =========================
+    "blockchain",
+    "web3",
+    "solidity",
+    "smart contracts",
+    "ethereum",
+
+    # =========================
+    # Game Development
+    # =========================
+    "unity",
+    "unreal engine",
+    "game development",
+
+    # =========================
+    # Soft Skills
+    # =========================
+    "communication",
+    "leadership",
+    "teamwork",
+    "time management",
+    "critical thinking",
+    "adaptability",
+    "creativity",
+    "collaboration",
+    "analytical thinking",
+    "decision making",
+    "presentation skills",
+    "project management",
+
+    # =========================
+    # Additional Tech Skills
+    # =========================
+    "computer vision",
+    "image processing",
+    "speech recognition",
+    "recommendation systems",
+    "reinforcement learning",
+    "time series analysis",
+    "predictive analytics",
+    "big data",
+    "etl",
+    "data mining",
+    "api integration",
+    "payment gateway integration",
+    "e-commerce development",
+    "cms",
+    "wordpress",
+    "shopify",
+    "magento",
+    "electron.js",
+    "web scraping",
+    "automation",
+    "robotics",
+    "bioinformatics",
+    "quantitative analysis",
+    "financial modeling",
+    "statistical analysis",
+    "a/b testing",
+    "edge computing",
+    "virtualization",
+    "vmware",
+    "citrix",
+    "computer graphics",
+    "signal processing",
+    "natural language processing",
+    "sentiment analysis",
+    "chatbot development",
+    "recommendation engine",
+    "search engine optimization",
+    "content management systems",
+    "technical writing",
+    "research",
+    "quality assurance",
+    "customer support",
+    "product management",
+    "ui/ux design",
+    "wireframing",
+    "prototyping",
+    "digital marketing",
+    "social media marketing",
+    "email marketing",
+    "affiliate marketing",
+    "cloud security",
+    "identity access management",
+    "incident response",
+    "disaster recovery",
+    "business continuity",
+    "sre",
+    "site reliability engineering",
+    "network automation",
+    "telecommunications",
+    "5g",
+    "wireless communication",
+    "computer networks",
+    "parallel computing",
+    "high performance computing",
+    "compiler design",
+    "distributed computing",
+    "edge ai",
+    "autonomous systems",
+    "robot process automation",
+    "data governance",
+    "master data management",
+    "streamlit",
+    "gradio",
+    "mlflow",
+    "onnx",
+    "langsmith",
+    "crew ai",
+    "autogen",
+    "agentic ai",
+    "multi agent systems",
+
+    # ==========================================
+# EXTENDED GLOBAL PROFESSIONAL SKILLS LIST
+# ==========================================
+
+    # ==========================================
+    # Mechanical Engineering
+    # ==========================================
+    "mechanical engineering",
+    "thermodynamics",
+    "fluid mechanics",
+    "heat transfer",
+    "strength of materials",
+    "machine design",
+    "manufacturing engineering",
+    "cad",
+    "cam",
+    "solidworks",
+    "catia",
+    "autocad mechanical",
+    "ansys",
+    "cnc programming",
+    "cnc machining",
+    "lathe operations",
+    "welding",
+    "casting",
+    "forging",
+    "industrial engineering",
+    "quality control",
+    "lean manufacturing",
+    "six sigma",
+    "production planning",
+    "maintenance engineering",
+    "hvac",
+    "automobile engineering",
+    "robotics",
+    "mechatronics",
+    "pneumatics",
+    "hydraulics",
+    "automotive systems",
+    "tool design",
+    "material science",
+    "finite element analysis",
+    "mechanical maintenance",
+    "pipeline engineering",
+    "plant engineering",
+
+    # ==========================================
+    # Civil Engineering
+    # ==========================================
+    "civil engineering",
+    "structural engineering",
+    "construction management",
+    "surveying",
+    "geotechnical engineering",
+    "transportation engineering",
+    "environmental engineering",
+    "water resources engineering",
+    "autocad civil",
+    "staad pro",
+    "etabs",
+    "revit",
+    "bim",
+    "quantity surveying",
+    "construction planning",
+    "site supervision",
+    "road design",
+    "bridge engineering",
+    "concrete technology",
+    "soil mechanics",
+    "urban planning",
+    "project estimation",
+    "building materials",
+    "structural analysis",
+    "construction safety",
+    "site management",
+    "foundation engineering",
+    "municipal engineering",
+    "smart cities",
+    "pmp",
+    "primavera",
+    "ms project",
+
+    # ==========================================
+    # Electrical Engineering
+    # ==========================================
+    "electrical engineering",
+    "power systems",
+    "electrical machines",
+    "power electronics",
+    "control systems",
+    "circuit analysis",
+    "embedded systems",
+    "plc",
+    "scada",
+    "vlsi",
+    "microcontrollers",
+    "microprocessors",
+    "matlab simulink",
+    "digital electronics",
+    "analog electronics",
+    "power distribution",
+    "renewable energy",
+    "solar systems",
+    "battery management systems",
+    "electrical maintenance",
+    "industrial automation",
+    "transformers",
+    "switchgear",
+    "relay protection",
+    "electrical design",
+    "substation engineering",
+    "electrical safety",
+
+    # ==========================================
+    # Electronics & Communication
+    # ==========================================
+    "electronics engineering",
+    "communication systems",
+    "signal processing",
+    "wireless communication",
+    "rf engineering",
+    "antenna design",
+    "telecommunication",
+    "satellite communication",
+    "fiber optics",
+    "embedded c",
+    "pcb design",
+    "arduino",
+    "raspberry pi",
+    "iot systems",
+    "fpga",
+    "verilog",
+    "vhdl",
+    "network analysis",
+    "digital signal processing",
+    "image signal processing",
+
+    # ==========================================
+    # Chemical Engineering
+    # ==========================================
+    "chemical engineering",
+    "process engineering",
+    "petrochemical engineering",
+    "chemical process simulation",
+    "mass transfer",
+    "reaction engineering",
+    "process control",
+    "refinery operations",
+    "polymer technology",
+    "industrial chemistry",
+    "chemical plant design",
+    "hazop",
+    "process safety",
+    "oil and gas",
+    "fertilizer technology",
+
+    # ==========================================
+    # Aerospace Engineering
+    # ==========================================
+    "aerospace engineering",
+    "aerodynamics",
+    "aircraft maintenance",
+    "aircraft systems",
+    "avionics",
+    "space systems",
+    "propulsion systems",
+    "flight mechanics",
+    "computational fluid dynamics",
+    "drone technology",
+    "uav systems",
+
+    # ==========================================
+    # Biomedical Engineering
+    # ==========================================
+    "biomedical engineering",
+    "medical imaging",
+    "biomechanics",
+    "bioinstrumentation",
+    "clinical engineering",
+    "healthcare systems",
+    "medical devices",
+    "hospital equipment maintenance",
+    "biotechnology",
+
+    # ==========================================
+    # Agriculture
+    # ==========================================
+    "agriculture",
+    "agricultural engineering",
+    "soil science",
+    "crop production",
+    "organic farming",
+    "precision agriculture",
+    "agronomy",
+    "horticulture",
+    "plant pathology",
+    "irrigation systems",
+    "farm management",
+    "dairy technology",
+    "food technology",
+
+    # ==========================================
+    # Architecture & Design
+    # ==========================================
+    "architecture",
+    "interior design",
+    "landscape architecture",
+    "urban design",
+    "3d modeling",
+    "sketchup",
+    "lumion",
+    "photoshop",
+    "illustrator",
+    "indesign",
+    "visual design",
+    "graphic design",
+    "motion graphics",
+    "animation",
+    "video editing",
+    "after effects",
+    "premiere pro",
+
+    # ==========================================
+    # Finance & Accounting
+    # ==========================================
+    "finance",
+    "accounting",
+    "financial analysis",
+    "taxation",
+    "auditing",
+    "bookkeeping",
+    "tally",
+    "quickbooks",
+    "investment banking",
+    "equity research",
+    "risk management",
+    "portfolio management",
+    "financial reporting",
+    "cost accounting",
+    "budgeting",
+    "forecasting",
+    "banking operations",
+
+    # ==========================================
+    # Human Resources
+    # ==========================================
+    "human resources",
+    "recruitment",
+    "talent acquisition",
+    "employee engagement",
+    "payroll management",
+    "performance management",
+    "labor laws",
+    "organizational development",
+    "training and development",
+    "hr analytics",
+
+    # ==========================================
+    # Marketing & Sales
+    # ==========================================
+    "sales",
+    "marketing",
+    "digital marketing",
+    "brand management",
+    "market research",
+    "business development",
+    "crm",
+    "customer relationship management",
+    "lead generation",
+    "seo",
+    "sem",
+    "content marketing",
+    "social media management",
+    "email campaigns",
+    "salesforce crm",
+    "advertising",
+    "public relations",
+
+    # ==========================================
+    # Healthcare
+    # ==========================================
+    "healthcare",
+    "nursing",
+    "patient care",
+    "clinical research",
+    "medical coding",
+    "medical billing",
+    "pharmacy",
+    "diagnostics",
+    "radiology",
+    "laboratory management",
+    "hospital administration",
+    "epidemiology",
+
+    # ==========================================
+    # Education
+    # ==========================================
+    "teaching",
+    "curriculum development",
+    "classroom management",
+    "e-learning",
+    "instructional design",
+    "academic research",
+    "online tutoring",
+    "educational technology",
+
+    # ==========================================
+    # Law & Legal
+    # ==========================================
+    "legal research",
+    "contract drafting",
+    "corporate law",
+    "intellectual property",
+    "compliance",
+    "litigation",
+    "cyber law",
+    "legal documentation",
+
+    # ==========================================
+    # Supply Chain & Logistics
+    # ==========================================
+    "supply chain management",
+    "logistics",
+    "warehouse management",
+    "inventory management",
+    "procurement",
+    "vendor management",
+    "transport management",
+    "shipping operations",
+    "import export",
+
+    # ==========================================
+    # Hospitality & Tourism
+    # ==========================================
+    "hospitality management",
+    "hotel management",
+    "tourism",
+    "event management",
+    "food and beverage service",
+    "customer service",
+    "travel management",
+
+    # ==========================================
+    # Media & Journalism
+    # ==========================================
+    "journalism",
+    "content writing",
+    "copywriting",
+    "editing",
+    "proofreading",
+    "news reporting",
+    "broadcasting",
+    "media production",
+
+    # ==========================================
+    # Professional Certifications
+    # ==========================================
+    "aws certified",
+    "azure certified",
+    "google cloud certified",
+    "cisco certified",
+    "ccna",
+    "ccnp",
+    "pmp certified",
+    "scrum master",
+    "itil",
+    "comptia security+",
+    "ceh",
+    "cissp",
+    "oracle certified",
+    "sap certified",
+
+    # ==========================================
+    # Hardware Skills
+    # ==========================================
+    "computer hardware",
+    "hardware troubleshooting",
+    "pc assembly",
+    "server maintenance",
+    "network hardware",
+    "printer maintenance",
+    "motherboard repair",
+    "chip level repairing",
+    "hardware networking",
+    "bios configuration",
+    "system installation",
+    "computer repair",
+    "laptop repair",
+    "cctv installation",
+    "access control systems",
+    "electronic repair",
+    "soldering",
+    "hardware diagnostics",
+    "embedded hardware",
+    "industrial electronics",
+
+    # ==========================================
+    # Miscellaneous Professional Skills
+    # ==========================================
+    "project coordination",
+    "operations management",
+    "strategic planning",
+    "vendor coordination",
+    "business analysis",
+    "client management",
+    "negotiation",
+    "technical support",
+    "documentation",
+    "process improvement",
+    "workflow optimization",
+    "quality management",
+    "compliance management",
+    "resource allocation",
+    "change management",
+    "stakeholder management",
+    "decision analysis",
+    "conflict resolution",
+    "presentation",
+    "report writing",
+
 ]
